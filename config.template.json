@@ -1,8 +1,23 @@
 {
   "symbols": ["TECL", "SOXL"],
   "rsi_period": 14,
-  "buy_threshold": 33,
-  "sell_threshold": 67,
+  "enhanced_mode": true,
+  "symbol_specific_settings": {
+    "TECL": {
+      "daily_buy_threshold": 33,
+      "daily_sell_threshold": 67,
+      "weekly_buy_threshold": 50,
+      "weekly_sell_threshold": 50,
+      "use_weekly_filter": true,
+      "strategy_name": "Enhanced RSI"
+    },
+    "SOXL": {
+      "daily_buy_threshold": 33,
+      "daily_sell_threshold": 67,
+      "use_weekly_filter": false,
+      "strategy_name": "Standard RSI"
+    }
+  },
   "weekly_report": {
     "enabled": true,
     "day": "friday"
