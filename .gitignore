@@ -1,0 +1,36 @@
+# Configuration files with sensitive data
+config.json
+config_original.json
+
+# Data files
+signals_history.csv
+*.log
+*.csv
+
+# Backup directories
+backups/
+__pycache__/
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
