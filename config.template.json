@@ -1,0 +1,16 @@
+{
+  "symbols": ["TECL", "SOXL"],
+  "rsi_period": 14,
+  "buy_threshold": 33,
+  "sell_threshold": 67,
+  "weekly_report": {
+    "enabled": true,
+    "day": "friday"
+  },
+  "notification": {
+    "type": "line",
+    "line": {
+      "access_token": "YOUR_LINE_CHANNEL_ACCESS_TOKEN_HERE"
+    }
+  }
+}
